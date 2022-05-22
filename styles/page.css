@@ -1,8 +1,25 @@
 @import url(main.css);
 
-.headshot {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto ;
-    display: block;
+.head__shot {
+    min-width: 50px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+
+.nav__bar {
+    display:flex;
+    flex-wrap:wrap-reverse;
+}
+
+.footer {
+    background-color:rgb(7, 53, 45);
+    color:honeydew;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-size: smaller;
+    padding: 2em;
+    margin-top: 40px;
 }
