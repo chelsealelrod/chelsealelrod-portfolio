@@ -47,6 +47,7 @@
 }
 
 .react__logo {
+    padding: 2em;
     width: 10%;
     height: 10%;
 }
@@ -56,21 +57,25 @@
 }
 
 .js__logo {
+    padding: 2em;
     width: 10%;
     height: 10%;
 }
 
 .html__logo {
+    padding: 4em;
     width: 10%;
     height: 10%;
 }
 
 .sql__logo {
+    padding: 2em;
     width: 10%;
     height: 10%;
 }
 
 .python__logo {
+    padding: 2em;
     width: 10%;
     height: 10%;
 }
@@ -78,4 +83,11 @@
 .django__logo {
     width: 10%;
     height: 10%;
+}
+
+.tech_detail {
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+
 }
